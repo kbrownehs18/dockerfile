@@ -6,4 +6,4 @@ RUN echo "Asia/Shanghai" > /etc/timezone && \
     add-apt-repository -y ppa:alex-p/tesseract-ocr5 && \
     apt install -y tesseract-ocr && \
     apt install -y openjdk-8-jdk && \
-    yum clean all
+    apt autoclean
